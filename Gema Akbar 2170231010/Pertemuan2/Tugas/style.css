@@ -1,0 +1,165 @@
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    font-family: cursive;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+
+
+
+
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #d474c4;
+   }
+   .nav-links a {
+    color: black;
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+    background-color: #d474c4;
+    border-radius: 5px;
+    transition: 0.3s ease;
+   }
+   .menu li a:hover{
+    color: white;
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+   /* DROPDOWN MENU */
+   .services {
+    position: relative; 
+   }
+   .dropdown {
+    background-color: rgb(1, 139, 139);
+    padding: 1em 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+   }
+   .dropdown li + li {
+    margin-top: 10px;
+   }
+   .dropdown li {
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+   }
+   .dropdown li:hover {
+    background-color: #4c9e9e;
+   }
+   .services:hover .dropdown {
+    display: block;
+   }
+
+
+
+
+   /* CONTENT */
+   .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    color: #d474c4;
+   }
+
+   .content h2{
+    color: #828282;
+   }
+   
+   .textDesc{
+    margin-left: 120px;
+   }
+
+   .imageDesc{
+
+    margin-right: 100px;
+   }
+
+   .img_content{
+    height:500px;
+    width: 700px;
+    background-size: cover;
+   }
+
+
+
+   /* PENDIDIKAN */
+   .content-pendidikan,
+   .content-jadwal {
+    text-align: center;
+    margin-top: 50px;
+   }
+
+   .isi-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+   }
+
+   .content-1-pendidikan,
+   .content-2-pendidikan,
+   .content-3-pendidikan,
+   .content-4-pendidikan{
+
+    border: 4px solid #d474c4;
+    margin-top: 100px;
+    margin-left: 230px;
+    margin-right: 200px;
+    width: 45%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+    box-shadow: 4px 4px 2px rgba(0,0,0,0.4);
+   }
+
+
+   /* JADWAL KULIAH */
+   .isi-content-jadwal table{
+    margin: 40px auto 0 ;
+   }
+
+
+
+   /* AKTIVITAS */
+   .content-1-aktivitas,
+   .content-2-aktivitas,
+   .content-3-aktivitas,
+   .content-4-aktivitas{
+
+    border: 4px solid #d474c4;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 45%;
+    font-weight: bold;
+    padding: 20px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.4);
+   }
